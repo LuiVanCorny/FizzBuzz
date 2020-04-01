@@ -14,7 +14,7 @@ public class FizzBuzz {
             }else if(i % 5 == 0){
                 resultString += "Buzz";
             }else{
-                resultString += zahl;
+                resultString += i;
             }
 
             if(i != zahl){

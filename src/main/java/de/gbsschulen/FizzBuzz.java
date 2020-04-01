@@ -13,6 +13,8 @@ public class FizzBuzz {
                 resultString += "Fizz";
             }else if(i % 5 == 0){
                 resultString += "Buzz";
+            }else{
+                resultString += zahl;
             }
 
             if(i != zahl){
